@@ -1,7 +1,7 @@
 let data=null,profile=null,currentTopic=null,currentIndex=0,correctCount=0,halfCount=0,sessionXP=0,sessionCoins=0;
 
 async function start(){
-  profile=JSON.parse(localStorage.getItem("jannati_profile_v02")||"null");
+  profile=JSON.parse(localStorage.getItem("jannati_profile_v03")||"null");
   const r=await fetch("data/bm_tahun2.json");
   data=await r.json();
   profile?showDashboard():showLogin();
@@ -10,8 +10,8 @@ async function start(){
 function hideAll(){["login","dashboard","quiz","finish"].forEach(id=>document.getElementById(id).classList.add("hidden"))}
 function showLogin(){hideAll();document.getElementById("login").classList.remove("hidden")}
 function saveProfile(){profile={name:document.getElementById("nameInput").value.trim()||"Anak",xp:0,coins:0,streak:0,lastStudy:"",progress:{},badges:[]};save();showDashboard()}
-function resetProfile(){if(confirm("Reset semua rekod?")){localStorage.removeItem("jannati_profile_v02");showLogin()}}
-function save(){localStorage.setItem("jannati_profile_v02",JSON.stringify(profile))}
+function resetProfile(){if(confirm("Reset semua rekod?")){localStorage.removeItem("jannati_profile_v03");showLogin()}}
+function save(){localStorage.setItem("jannati_profile_v03",JSON.stringify(profile))}
 
 function showDashboard(){
   hideAll();document.getElementById("dashboard").classList.remove("hidden");
@@ -69,6 +69,29 @@ function loadQuestion(){
   setTimeout(()=>document.getElementById("answerInput").focus(),100);
 }
 
+function speakQuestion(){
+  const text=document.getElementById("questionText").innerText.replaceAll("________"," kosong ");
+  if(!("speechSynthesis" in window)){alert("Browser ini tidak menyokong bacaan suara.");return;}
+  window.speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang="ms-MY";
+  u.rate=0.88;
+  window.speechSynthesis.speak(u);
+}
+
+function beep(type="good"){
+  try{
+    const ctx=new (window.AudioContext||window.webkitAudioContext)();
+    const osc=ctx.createOscillator();
+    const gain=ctx.createGain();
+    osc.connect(gain); gain.connect(ctx.destination);
+    osc.frequency.value=type==="good"?720:type==="mid"?440:220;
+    gain.gain.value=0.08;
+    osc.start();
+    setTimeout(()=>{osc.stop();ctx.close();}, type==="good"?180:260);
+  }catch(e){}
+}
+
 function norm(s){return(s||"").toString().toLowerCase().trim().replace(/[.,!?]/g,"").replace(/\s+/g," ")}
 function removeCommonWords(s){return norm(s).replace(/^air\s+/,"").replace(/^minuman\s+/,"").replace(/^susu\s+/,"").replace(/^sebiji\s+/,"").replace(/^sebatang\s+/,"").replace(/^seekor\s+/,"").replace(/^sebuah\s+/,"").replace(/^satu\s+/,"").replace(/^negeri\s+/,"").trim()}
 
@@ -84,6 +107,7 @@ function smartCheck(user,item){
 function checkAnswer(){
   const q=currentTopic.questions[currentIndex],user=document.getElementById("answerInput").value,res=smartCheck(user,q),fb=document.getElementById("feedback");
   fb.className="feedback "+res.status;
+  beep(res.status);
   let xp=0,coin=0;
   if(res.status==="good"){correctCount++;xp=10;coin=5;sessionXP+=10;sessionCoins+=5}
   else if(res.status==="mid"){halfCount++;xp=5;coin=2;sessionXP+=5;sessionCoins+=2}
@@ -96,6 +120,7 @@ function showHint(){const q=currentTopic.questions[currentIndex],fb=document.get
 function nextQuestion(){currentIndex++;currentIndex>=currentTopic.questions.length?finishQuiz():loadQuestion()}
 
 function finishQuiz(){
+  beep("good");
   const total=currentTopic.questions.length,score=correctCount+halfCount*.5,percent=Math.round(score/total*100);
   profile.xp=(profile.xp||0)+sessionXP; profile.coins=(profile.coins||0)+sessionCoins;
   const today=new Date().toISOString().slice(0,10);

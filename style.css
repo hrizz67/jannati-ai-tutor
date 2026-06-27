@@ -1,6 +1,6 @@
 :root{
   --green:#087a3b;--green2:#0ea75a;--light:#eafff0;--yellow:#f4c542;
-  --text:#17211b;--muted:#6b7280;--red:#fee2e2;--orange:#fff7d6;--blue:#e8f2ff;
+  --text:#17211b;--muted:#6b7280;--red:#fee2e2;--orange:#fff7d6;
 }
 *{box-sizing:border-box}
 body{margin:0;background:linear-gradient(180deg,#dfffea,#fff);font-family:Arial,sans-serif;color:var(--text)}
@@ -14,6 +14,7 @@ label{font-weight:bold;display:block;margin-top:12px}
 input{width:100%;padding:16px;border:1px solid #ccd3cf;border-radius:16px;font-size:18px;margin-top:8px}
 button{background:var(--green);color:#fff;border:none;border-radius:16px;padding:14px 18px;font-size:17px;font-weight:bold;cursor:pointer}
 button:hover{filter:brightness(.96)}.ghost{background:#eef2ee;color:#123}.secondary{background:#f1f5f1;color:#123}
+.fullbtn{width:100%;margin-top:12px}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat{background:#fff;border-radius:20px;text-align:center;padding:14px;box-shadow:0 5px 16px rgba(0,0,0,.06)}
 .stat b{display:block;font-size:24px;color:var(--green)}.stat span{font-size:13px;color:var(--muted)}
 .topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}.topic{background:var(--light);border:2px solid #bdf2cc;color:#113b23;text-align:left}
@@ -22,7 +23,8 @@ button:hover{filter:brightness(.96)}.ghost{background:#eef2ee;color:#123}.second
 .tutor{display:flex;gap:12px;align-items:center;background:var(--light)}.questionCard h2{font-size:27px;color:#111}
 .pill{display:inline-block;background:var(--yellow);color:#111;border-radius:999px;padding:6px 12px;font-weight:bold;margin:8px 0}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.topbar{display:flex;justify-content:space-between;align-items:center}
-.feedback{border-radius:22px;padding:18px;margin-top:14px;font-size:17px}.good{background:var(--light);border:2px solid #63d488}.mid{background:var(--orange);border:2px solid var(--yellow)}.bad{background:var(--red);border:2px solid #f87171}
+.feedback{border-radius:22px;padding:18px;margin-top:14px;font-size:17px}
+.good{background:var(--light);border:2px solid #63d488}.mid{background:var(--orange);border:2px solid var(--yellow)}.bad{background:var(--red);border:2px solid #f87171}
 .big{font-size:76px}.finish{text-align:center;margin-top:70px}.badge{display:inline-block;background:var(--yellow);padding:10px 14px;border-radius:999px;font-weight:bold}
 .badges{display:flex;gap:8px;flex-wrap:wrap}.badgeItem{background:#fff8d8;border:1px solid var(--yellow);padding:8px 12px;border-radius:999px;font-weight:bold}
 .progress-wrap{background:#e5e7eb;border-radius:999px;height:14px;overflow:hidden;margin:10px 0}.progress{height:100%;width:0;background:linear-gradient(90deg,var(--green),var(--green2));border-radius:999px;transition:.4s}

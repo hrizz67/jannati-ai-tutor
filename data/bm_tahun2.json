@@ -1,7 +1,7 @@
 {
   "app": "Jannati AI Tutor",
   "subject": "Bahasa Melayu Tahun 2",
-  "version": "0.2",
+  "version": "0.3",
   "topics": [
     {
       "id": "kata_nama_am",
@@ -68,6 +68,61 @@
             "permainan"
           ],
           "hint": "Benda bulat yang dimainkan di padang."
+        },
+        {
+          "q": "Murid membaca ________ cerita.",
+          "answer": "buku",
+          "accepted": [
+            "buku cerita"
+          ],
+          "almost": [
+            "bacaan"
+          ],
+          "hint": "Benda yang dibaca."
+        },
+        {
+          "q": "Ibu memasak nasi di ________.",
+          "answer": "dapur",
+          "accepted": [
+            "ruang dapur"
+          ],
+          "almost": [
+            "rumah"
+          ],
+          "hint": "Tempat memasak."
+        },
+        {
+          "q": "Nelayan menangkap ________ di laut.",
+          "answer": "ikan",
+          "accepted": [
+            "ikan-ikan"
+          ],
+          "almost": [
+            "haiwan laut"
+          ],
+          "hint": "Haiwan yang hidup di air."
+        },
+        {
+          "q": "Guru mengajar di dalam ________.",
+          "answer": "kelas",
+          "accepted": [
+            "bilik kelas"
+          ],
+          "almost": [
+            "sekolah"
+          ],
+          "hint": "Tempat murid belajar."
+        },
+        {
+          "q": "Ayah duduk di atas ________.",
+          "answer": "kerusi",
+          "accepted": [
+            "bangku"
+          ],
+          "almost": [
+            "tempat duduk"
+          ],
+          "hint": "Benda untuk duduk."
         }
       ]
     },
@@ -143,6 +198,62 @@
             "cikgu"
           ],
           "hint": "Nama orang ialah kata nama khas."
+        },
+        {
+          "q": "Kami tinggal di ________.",
+          "answer": "Sungai Petani",
+          "accepted": [
+            "sp",
+            "sungai petani kedah"
+          ],
+          "almost": [
+            "kedah"
+          ],
+          "hint": "Nama bandar."
+        },
+        {
+          "q": "Ibu membeli roti ________.",
+          "answer": "Gardenia",
+          "accepted": [
+            "roti gardenia"
+          ],
+          "almost": [
+            "roti"
+          ],
+          "hint": "Nama jenama roti."
+        },
+        {
+          "q": "Adik suka menonton ________.",
+          "answer": "BoBoiBoy",
+          "accepted": [
+            "boboiboy"
+          ],
+          "almost": [
+            "kartun"
+          ],
+          "hint": "Nama rancangan kartun."
+        },
+        {
+          "q": "Kami melawat ________.",
+          "answer": "Zoo Negara",
+          "accepted": [
+            "zoo negara malaysia"
+          ],
+          "almost": [
+            "zoo"
+          ],
+          "hint": "Nama tempat."
+        },
+        {
+          "q": "Saya membeli pensel ________.",
+          "answer": "Faber-Castell",
+          "accepted": [
+            "faber castell"
+          ],
+          "almost": [
+            "pensel"
+          ],
+          "hint": "Nama jenama pensel."
         }
       ]
     },
@@ -197,6 +308,55 @@
             "kita"
           ],
           "hint": "Kami tidak termasuk orang yang mendengar."
+        },
+        {
+          "q": "“________ hendak ke mana?” tanya Ali kepada rakannya.",
+          "answer": "awak",
+          "accepted": [
+            "kamu"
+          ],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Digunakan untuk orang yang diajak bercakap."
+        },
+        {
+          "q": "Cikgu berkata, “________ mesti menjaga kebersihan kelas.”",
+          "answer": "kita",
+          "accepted": [
+            "murid-murid"
+          ],
+          "almost": [
+            "mereka"
+          ],
+          "hint": "Cikgu bercakap kepada semua."
+        },
+        {
+          "q": "Aina rajin. ________ selalu menyiapkan kerja sekolah.",
+          "answer": "dia",
+          "accepted": [],
+          "almost": [
+            "mereka"
+          ],
+          "hint": "Aina seorang sahaja."
+        },
+        {
+          "q": "Ravi dan Abu bermain bola. ________ bermain di padang.",
+          "answer": "mereka",
+          "accepted": [],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Ravi dan Abu ialah dua orang."
+        },
+        {
+          "q": "Saya dan adik menyapu rumah. ________ membantu ibu.",
+          "answer": "kami",
+          "accepted": [],
+          "almost": [
+            "kita"
+          ],
+          "hint": "Saya dan adik, tidak termasuk pendengar."
         }
       ]
     },
@@ -260,6 +420,61 @@
             "seekor"
           ],
           "hint": "Roti boleh sekeping."
+        },
+        {
+          "q": "________ doktor sedang memeriksa pesakit.",
+          "answer": "seorang",
+          "accepted": [
+            "satu orang"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Doktor ialah manusia."
+        },
+        {
+          "q": "________ baju digantung pada penyangkut.",
+          "answer": "sehelai",
+          "accepted": [
+            "satu helai"
+          ],
+          "almost": [
+            "sebiji"
+          ],
+          "hint": "Baju menggunakan helai."
+        },
+        {
+          "q": "________ kereta dipandu oleh ayah.",
+          "answer": "sebuah",
+          "accepted": [
+            "satu buah"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Kereta menggunakan buah."
+        },
+        {
+          "q": "________ bola berada di bawah meja.",
+          "answer": "sebiji",
+          "accepted": [
+            "satu biji"
+          ],
+          "almost": [
+            "sehelai"
+          ],
+          "hint": "Bola menggunakan biji."
+        },
+        {
+          "q": "________ ikan berenang di dalam akuarium.",
+          "answer": "seekor",
+          "accepted": [
+            "satu ekor"
+          ],
+          "almost": [
+            "seorang"
+          ],
+          "hint": "Ikan ialah haiwan."
         }
       ]
     },
@@ -327,6 +542,61 @@
             "bergerak"
           ],
           "hint": "Ikan bergerak di air."
+        },
+        {
+          "q": "Kakak ________ surat kepada rakannya.",
+          "answer": "menulis",
+          "accepted": [
+            "tulis"
+          ],
+          "almost": [
+            "membaca"
+          ],
+          "hint": "Perbuatan menggunakan pen atau pensel."
+        },
+        {
+          "q": "Adik ________ susu setiap pagi.",
+          "answer": "minum",
+          "accepted": [
+            "meminum"
+          ],
+          "almost": [
+            "makan"
+          ],
+          "hint": "Susu diminum."
+        },
+        {
+          "q": "Ibu ________ lantai yang kotor.",
+          "answer": "menyapu",
+          "accepted": [
+            "sapu"
+          ],
+          "almost": [
+            "mencuci"
+          ],
+          "hint": "Gunakan penyapu."
+        },
+        {
+          "q": "Doktor ________ pesakit.",
+          "answer": "merawat",
+          "accepted": [
+            "rawat"
+          ],
+          "almost": [
+            "mengajar"
+          ],
+          "hint": "Tugas doktor."
+        },
+        {
+          "q": "Cikgu ________ murid di kelas.",
+          "answer": "mengajar",
+          "accepted": [
+            "ajar"
+          ],
+          "almost": [
+            "merawat"
+          ],
+          "hint": "Tugas guru."
         }
       ]
     },
@@ -390,6 +660,61 @@
             "cantik"
           ],
           "hint": "Tidak kotor."
+        },
+        {
+          "q": "Semut ialah haiwan yang ________.",
+          "answer": "kecil",
+          "accepted": [
+            "halus"
+          ],
+          "almost": [
+            "pendek"
+          ],
+          "hint": "Lawan besar."
+        },
+        {
+          "q": "Pokok kelapa itu sangat ________.",
+          "answer": "tinggi",
+          "accepted": [
+            "amat tinggi"
+          ],
+          "almost": [
+            "besar"
+          ],
+          "hint": "Lawan rendah."
+        },
+        {
+          "q": "Air kopi itu masih ________.",
+          "answer": "panas",
+          "accepted": [
+            "hangat"
+          ],
+          "almost": [
+            "sejuk"
+          ],
+          "hint": "Lawan sejuk."
+        },
+        {
+          "q": "Gula itu berasa ________.",
+          "answer": "manis",
+          "accepted": [
+            "sangat manis"
+          ],
+          "almost": [
+            "masam"
+          ],
+          "hint": "Rasa gula."
+        },
+        {
+          "q": "Batu itu sangat ________.",
+          "answer": "keras",
+          "accepted": [
+            "kuat"
+          ],
+          "almost": [
+            "berat"
+          ],
+          "hint": "Lawan lembut."
         }
       ]
     },
@@ -446,6 +771,55 @@
             "di"
           ],
           "hint": "Gunakan untuk masa atau hari."
+        },
+        {
+          "q": "Saya memberikan buku itu ________ Ali.",
+          "answer": "kepada",
+          "accepted": [
+            "pada"
+          ],
+          "almost": [
+            "untuk"
+          ],
+          "hint": "Digunakan untuk orang yang menerima."
+        },
+        {
+          "q": "Ibu membeli sayur ________ pasar.",
+          "answer": "di",
+          "accepted": [],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Ibu membeli di tempat itu."
+        },
+        {
+          "q": "Kami berjalan ________ taman.",
+          "answer": "ke",
+          "accepted": [],
+          "almost": [
+            "di"
+          ],
+          "hint": "Menuju ke taman."
+        },
+        {
+          "q": "Ayah balik ________ kerja.",
+          "answer": "dari",
+          "accepted": [
+            "daripada"
+          ],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Balik dari sesuatu tempat."
+        },
+        {
+          "q": "Buku itu berada ________ atas meja.",
+          "answer": "di",
+          "accepted": [],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Menunjukkan tempat."
         }
       ]
     },
@@ -504,6 +878,57 @@
             "tetapi"
           ],
           "hint": "Lalu menunjukkan tindakan seterusnya."
+        },
+        {
+          "q": "Ibu membeli ikan ________ sayur.",
+          "answer": "dan",
+          "accepted": [],
+          "almost": [
+            "atau"
+          ],
+          "hint": "Menggabungkan dua benda."
+        },
+        {
+          "q": "Awak hendak membaca buku ________ melukis?",
+          "answer": "atau",
+          "accepted": [],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Menunjukkan pilihan."
+        },
+        {
+          "q": "Dia menangis ________ terjatuh.",
+          "answer": "kerana",
+          "accepted": [
+            "sebab"
+          ],
+          "almost": [
+            "tetapi"
+          ],
+          "hint": "Menunjukkan sebab menangis."
+        },
+        {
+          "q": "Rumah itu kecil ________ bersih.",
+          "answer": "tetapi",
+          "accepted": [
+            "namun"
+          ],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Dua sifat yang berbeza."
+        },
+        {
+          "q": "Saya makan nasi ________ minum air.",
+          "answer": "lalu",
+          "accepted": [
+            "kemudian"
+          ],
+          "almost": [
+            "kerana"
+          ],
+          "hint": "Perbuatan seterusnya."
         }
       ]
     },
@@ -556,6 +981,51 @@
             "minom"
           ],
           "hint": "Minum menggunakan huruf u."
+        },
+        {
+          "q": "Ejaan betul bagi 'hospetal' ialah ________.",
+          "answer": "hospital",
+          "accepted": [],
+          "almost": [
+            "ospetal"
+          ],
+          "hint": "Tempat doktor bekerja."
+        },
+        {
+          "q": "Ejaan betul bagi 'bukku' ialah ________.",
+          "answer": "buku",
+          "accepted": [],
+          "almost": [
+            "bukku"
+          ],
+          "hint": "Buku ada satu k."
+        },
+        {
+          "q": "Ejaan betul bagi 'ayer' ialah ________.",
+          "answer": "air",
+          "accepted": [],
+          "almost": [
+            "ayer"
+          ],
+          "hint": "Minuman utama."
+        },
+        {
+          "q": "Ejaan betul bagi 'rumah' ialah ________.",
+          "answer": "rumah",
+          "accepted": [],
+          "almost": [
+            "ruma"
+          ],
+          "hint": "Tempat tinggal."
+        },
+        {
+          "q": "Ejaan betul bagi 'tidor' ialah ________.",
+          "answer": "tidur",
+          "accepted": [],
+          "almost": [
+            "tidor"
+          ],
+          "hint": "Berehat pada waktu malam."
         }
       ]
     },
@@ -618,6 +1088,62 @@
             "motosikal"
           ],
           "hint": "Benda yang dicuci oleh ayah."
+        },
+        {
+          "q": "Petikan: Aiman pergi ke taman bersama ayah. Siapakah pergi ke taman?",
+          "answer": "Aiman",
+          "accepted": [],
+          "almost": [
+            "ayah"
+          ],
+          "hint": "Nama budak dalam petikan."
+        },
+        {
+          "q": "Petikan: Aiman pergi ke taman bersama ayah. Dengan siapa Aiman pergi?",
+          "answer": "ayah",
+          "accepted": [
+            "bapa"
+          ],
+          "almost": [
+            "ibu"
+          ],
+          "hint": "Aiman pergi bersama ayah."
+        },
+        {
+          "q": "Petikan: Ibu membeli ikan dan sayur di pasar. Apakah yang dibeli ibu?",
+          "answer": "ikan dan sayur",
+          "accepted": [
+            "sayur dan ikan",
+            "ikan",
+            "sayur"
+          ],
+          "almost": [
+            "ayam"
+          ],
+          "hint": "Ibu membeli ikan dan sayur."
+        },
+        {
+          "q": "Petikan: Abu sakit perut lalu dibawa ke klinik. Mengapa Abu ke klinik?",
+          "answer": "sakit perut",
+          "accepted": [
+            "abu sakit",
+            "kerana sakit perut"
+          ],
+          "almost": [
+            "demam"
+          ],
+          "hint": "Sebab dalam petikan."
+        },
+        {
+          "q": "Petikan: Kucing putih tidur di bawah meja. Apakah warna kucing itu?",
+          "answer": "putih",
+          "accepted": [
+            "warna putih"
+          ],
+          "almost": [
+            "hitam"
+          ],
+          "hint": "Warna kucing ialah putih."
         }
       ]
     }

@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Jannati AI Tutor V0.2</title>
+  <title>Jannati AI Tutor V0.3</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div id="app">
-
   <section id="login" class="screen">
     <div class="hero">
       <div class="mascot">🤖</div>
@@ -66,7 +65,7 @@
   <section id="quiz" class="screen hidden">
     <div class="topbar">
       <button class="ghost" onclick="showDashboard()">← Dashboard</button>
-      <div class="pill" id="quizCounter">1/5</div>
+      <div class="pill" id="quizCounter">1/10</div>
     </div>
 
     <div class="card tutor">
@@ -83,9 +82,10 @@
       <h2 id="questionText"></h2>
       <input id="answerInput" placeholder="Tulis jawapan di sini" autocomplete="off">
       <div class="row">
+        <button class="secondary" onclick="speakQuestion()">🔊 Baca Soalan</button>
         <button class="secondary" onclick="showHint()">💡 Hint</button>
-        <button onclick="checkAnswer()">Semak</button>
       </div>
+      <button class="fullbtn" onclick="checkAnswer()">Semak Jawapan</button>
     </div>
 
     <div id="feedback" class="feedback hidden"></div>
@@ -100,7 +100,6 @@
       <button onclick="showDashboard()">Kembali ke Dashboard</button>
     </div>
   </section>
-
 </div>
 <script src="app.js"></script>
 </body>
