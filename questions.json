@@ -1,0 +1,1726 @@
+{
+  "app": "Jannati AI Tutor",
+  "subject": "Bahasa Melayu Tahun 2",
+  "version": "Full Latihan v1",
+  "topics": [
+    {
+      "id": "kata_nama_am",
+      "title": "Kata Nama Am",
+      "note": "Kata nama am ialah nama umum bagi orang, haiwan, benda dan tempat.",
+      "questions": [
+        {
+          "q": "Ibu membeli seekor ________.",
+          "answer": "kucing",
+          "accepted": [
+            "anak kucing",
+            "kucing putih"
+          ],
+          "almost": [
+            "haiwan"
+          ],
+          "hint": "Seekor biasanya untuk haiwan."
+        },
+        {
+          "q": "Ayah memandu sebuah ________.",
+          "answer": "kereta",
+          "accepted": [
+            "kereta merah",
+            "motokar",
+            "kereta ayah"
+          ],
+          "almost": [
+            "kenderaan"
+          ],
+          "hint": "Sebuah sesuai untuk kereta."
+        },
+        {
+          "q": "Saya menulis menggunakan ________.",
+          "answer": "pensel",
+          "accepted": [
+            "pensil",
+            "sebatang pensel"
+          ],
+          "almost": [
+            "alat tulis"
+          ],
+          "hint": "Alat untuk menulis."
+        },
+        {
+          "q": "Doktor bekerja di ________.",
+          "answer": "hospital",
+          "accepted": [
+            "klinik",
+            "hospital kerajaan",
+            "Hospital Sultan Abdul Halim"
+          ],
+          "almost": [
+            "tempat kerja"
+          ],
+          "hint": "Tempat doktor merawat pesakit."
+        },
+        {
+          "q": "Adik bermain ________ di padang.",
+          "answer": "bola",
+          "accepted": [
+            "bola sepak",
+            "sebiji bola"
+          ],
+          "almost": [
+            "permainan"
+          ],
+          "hint": "Benda bulat yang dimainkan di padang."
+        },
+        {
+          "q": "Murid membaca ________ cerita.",
+          "answer": "buku",
+          "accepted": [
+            "buku cerita"
+          ],
+          "almost": [
+            "bacaan"
+          ],
+          "hint": "Benda yang dibaca."
+        },
+        {
+          "q": "Ibu memasak nasi di ________.",
+          "answer": "dapur",
+          "accepted": [
+            "ruang dapur"
+          ],
+          "almost": [
+            "rumah"
+          ],
+          "hint": "Tempat memasak."
+        },
+        {
+          "q": "Nelayan menangkap ________ di laut.",
+          "answer": "ikan",
+          "accepted": [
+            "ikan-ikan"
+          ],
+          "almost": [
+            "haiwan laut"
+          ],
+          "hint": "Haiwan yang hidup di air."
+        },
+        {
+          "q": "Guru mengajar di dalam ________.",
+          "answer": "kelas",
+          "accepted": [
+            "bilik kelas"
+          ],
+          "almost": [
+            "sekolah"
+          ],
+          "hint": "Tempat murid belajar."
+        },
+        {
+          "q": "Ayah duduk di atas ________.",
+          "answer": "kerusi",
+          "accepted": [
+            "bangku"
+          ],
+          "almost": [
+            "tempat duduk"
+          ],
+          "hint": "Benda untuk duduk."
+        },
+        {
+          "q": "Datuk menanam ________ di sawah.",
+          "answer": "padi",
+          "accepted": [
+            "pokok padi"
+          ],
+          "almost": [
+            "tanaman"
+          ],
+          "hint": "Tanaman di sawah."
+        },
+        {
+          "q": "Kakak menyapu ________.",
+          "answer": "lantai",
+          "accepted": [
+            "lantai rumah"
+          ],
+          "almost": [
+            "rumah"
+          ],
+          "hint": "Bahagian bawah rumah yang dipijak."
+        },
+        {
+          "q": "Bunga ros itu berada di dalam ________.",
+          "answer": "pasu",
+          "accepted": [
+            "pasu bunga"
+          ],
+          "almost": [
+            "bekas"
+          ],
+          "hint": "Bekas untuk bunga."
+        },
+        {
+          "q": "Saya memakai ________ ke sekolah.",
+          "answer": "kasut",
+          "accepted": [
+            "sepasang kasut"
+          ],
+          "almost": [
+            "pakaian"
+          ],
+          "hint": "Dipakai pada kaki."
+        },
+        {
+          "q": "Ayam tinggal di dalam ________.",
+          "answer": "reban",
+          "accepted": [
+            "reban ayam"
+          ],
+          "almost": [
+            "kandang"
+          ],
+          "hint": "Tempat ayam tinggal."
+        }
+      ]
+    },
+    {
+      "id": "kata_nama_khas",
+      "title": "Kata Nama Khas",
+      "note": "Kata nama khas ialah nama khusus. Huruf pertama biasanya huruf besar.",
+      "questions": [
+        {
+          "q": "Saya minum ________ setiap pagi.",
+          "answer": "Milo",
+          "accepted": [
+            "air milo",
+            "minuman milo",
+            "milo panas",
+            "milo ais",
+            "susu milo"
+          ],
+          "almost": [
+            "air coklat",
+            "susu coklat"
+          ],
+          "hint": "Fikir nama jenama minuman."
+        },
+        {
+          "q": "Saya berasal dari ________.",
+          "answer": "Kedah",
+          "accepted": [
+            "negeri kedah"
+          ],
+          "almost": [
+            "utara",
+            "malaysia"
+          ],
+          "hint": "Fikir nama negeri."
+        },
+        {
+          "q": "Kami bercuti di ________.",
+          "answer": "Pulau Langkawi",
+          "accepted": [
+            "langkawi",
+            "pulau langkawi kedah"
+          ],
+          "almost": [
+            "pulau",
+            "pantai"
+          ],
+          "hint": "Tempat peranginan di Kedah."
+        },
+        {
+          "q": "Ayah memandu ________.",
+          "answer": "Proton X70",
+          "accepted": [
+            "x70",
+            "proton x70",
+            "kereta proton x70"
+          ],
+          "almost": [
+            "kereta",
+            "suv"
+          ],
+          "hint": "Fikir nama model kereta."
+        },
+        {
+          "q": "Nama guru saya ialah ________.",
+          "answer": "Puan Salmah",
+          "accepted": [
+            "cikgu salmah",
+            "salmah"
+          ],
+          "almost": [
+            "guru",
+            "cikgu"
+          ],
+          "hint": "Nama orang ialah kata nama khas."
+        },
+        {
+          "q": "Kami tinggal di ________.",
+          "answer": "Sungai Petani",
+          "accepted": [
+            "sp",
+            "sungai petani kedah"
+          ],
+          "almost": [
+            "kedah"
+          ],
+          "hint": "Nama bandar."
+        },
+        {
+          "q": "Ibu membeli roti ________.",
+          "answer": "Gardenia",
+          "accepted": [
+            "roti gardenia"
+          ],
+          "almost": [
+            "roti"
+          ],
+          "hint": "Nama jenama roti."
+        },
+        {
+          "q": "Adik suka menonton ________.",
+          "answer": "BoBoiBoy",
+          "accepted": [
+            "boboiboy"
+          ],
+          "almost": [
+            "kartun"
+          ],
+          "hint": "Nama rancangan kartun."
+        },
+        {
+          "q": "Kami melawat ________.",
+          "answer": "Zoo Negara",
+          "accepted": [
+            "zoo negara malaysia"
+          ],
+          "almost": [
+            "zoo"
+          ],
+          "hint": "Nama tempat."
+        },
+        {
+          "q": "Kakak belajar di ________.",
+          "answer": "SK Seri Murni",
+          "accepted": [
+            "sekolah kebangsaan seri murni",
+            "seri murni"
+          ],
+          "almost": [
+            "sekolah"
+          ],
+          "hint": "Nama sekolah."
+        },
+        {
+          "q": "Kami makan ayam goreng di ________.",
+          "answer": "KFC",
+          "accepted": [
+            "kentucky fried chicken"
+          ],
+          "almost": [
+            "restoran"
+          ],
+          "hint": "Nama restoran."
+        },
+        {
+          "q": "Saya membeli pensel ________.",
+          "answer": "Faber-Castell",
+          "accepted": [
+            "faber castell"
+          ],
+          "almost": [
+            "pensel"
+          ],
+          "hint": "Nama jenama pensel."
+        },
+        {
+          "q": "Ibu membeli susu ________.",
+          "answer": "Dutch Lady",
+          "accepted": [
+            "susu dutch lady"
+          ],
+          "almost": [
+            "susu"
+          ],
+          "hint": "Nama jenama susu."
+        },
+        {
+          "q": "Saya belajar Bahasa Melayu dengan ________.",
+          "answer": "Jannati Edu",
+          "accepted": [
+            "jannati"
+          ],
+          "almost": [
+            "guru"
+          ],
+          "hint": "Nama platform/jenama."
+        },
+        {
+          "q": "Kami pergi ke ________ pada hari cuti.",
+          "answer": "Pulau Pinang",
+          "accepted": [
+            "penang"
+          ],
+          "almost": [
+            "negeri"
+          ],
+          "hint": "Nama negeri/tempat."
+        }
+      ]
+    },
+    {
+      "id": "kata_ganti_nama",
+      "title": "Kata Ganti Nama",
+      "note": "Kata ganti nama menggantikan nama orang seperti saya, awak, dia, mereka, kami dan kita.",
+      "questions": [
+        {
+          "q": "Kata ganti nama untuk diri sendiri ialah ________.",
+          "answer": "saya",
+          "accepted": [
+            "aku"
+          ],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Digunakan apabila bercakap tentang diri sendiri."
+        },
+        {
+          "q": "Ali sedang makan nasi. Ali boleh diganti dengan ________.",
+          "answer": "dia",
+          "accepted": [],
+          "almost": [
+            "mereka"
+          ],
+          "hint": "Seorang sahaja boleh diganti dengan dia."
+        },
+        {
+          "q": "Siti dan Aina membaca buku. Mereka boleh diganti dengan ________.",
+          "answer": "mereka",
+          "accepted": [],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Lebih daripada seorang."
+        },
+        {
+          "q": "Saya dan kamu belajar bersama. Boleh diganti dengan ________.",
+          "answer": "kita",
+          "accepted": [],
+          "almost": [
+            "kami"
+          ],
+          "hint": "Termasuk orang yang bercakap dan orang yang mendengar."
+        },
+        {
+          "q": "Amir dan saya pergi ke perpustakaan. Boleh diganti dengan ________.",
+          "answer": "kami",
+          "accepted": [],
+          "almost": [
+            "kita"
+          ],
+          "hint": "Kami tidak termasuk orang yang mendengar."
+        },
+        {
+          "q": "“________ hendak ke mana?” tanya Ali kepada rakannya.",
+          "answer": "awak",
+          "accepted": [
+            "kamu"
+          ],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Digunakan untuk orang yang diajak bercakap."
+        },
+        {
+          "q": "Cikgu berkata, “________ mesti menjaga kebersihan kelas.”",
+          "answer": "kita",
+          "accepted": [
+            "murid-murid"
+          ],
+          "almost": [
+            "mereka"
+          ],
+          "hint": "Cikgu bercakap kepada semua termasuk dirinya."
+        },
+        {
+          "q": "Aina rajin. ________ selalu menyiapkan kerja sekolah.",
+          "answer": "dia",
+          "accepted": [],
+          "almost": [
+            "mereka"
+          ],
+          "hint": "Aina seorang sahaja."
+        },
+        {
+          "q": "Ravi dan Abu bermain bola. ________ bermain di padang.",
+          "answer": "mereka",
+          "accepted": [],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Ravi dan Abu ialah dua orang."
+        },
+        {
+          "q": "Murid-murid beratur. ________ hendak masuk ke kelas.",
+          "answer": "mereka",
+          "accepted": [],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Ramai murid."
+        },
+        {
+          "q": "________ mestilah hormat kepada ibu bapa.",
+          "answer": "kita",
+          "accepted": [],
+          "almost": [
+            "dia"
+          ],
+          "hint": "Ayat nasihat umum untuk semua."
+        },
+        {
+          "q": "Ibu memanggil adik. ________ sedang bermain.",
+          "answer": "dia",
+          "accepted": [],
+          "almost": [
+            "mereka"
+          ],
+          "hint": "Adik seorang sahaja."
+        }
+      ]
+    },
+    {
+      "id": "penjodoh_bilangan",
+      "title": "Penjodoh Bilangan",
+      "note": "Penjodoh bilangan digunakan bersama bilangan seperti seekor, sebuah, sebatang, sehelai dan seorang.",
+      "questions": [
+        {
+          "q": "Ayah membeli ________ epal.",
+          "answer": "sebiji",
+          "accepted": [
+            "satu biji"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Epal menggunakan biji."
+        },
+        {
+          "q": "Di padang ada ________ kuda.",
+          "answer": "seekor",
+          "accepted": [
+            "satu ekor"
+          ],
+          "almost": [
+            "sebuah"
+          ],
+          "hint": "Kuda ialah haiwan."
+        },
+        {
+          "q": "Ibu memakai ________ selipar.",
+          "answer": "sepasang",
+          "accepted": [
+            "satu pasang"
+          ],
+          "almost": [
+            "sehelai"
+          ],
+          "hint": "Selipar biasanya sepasang."
+        },
+        {
+          "q": "Saya menulis menggunakan ________ pensel.",
+          "answer": "sebatang",
+          "accepted": [
+            "satu batang"
+          ],
+          "almost": [
+            "sebiji"
+          ],
+          "hint": "Pensel berbentuk panjang."
+        },
+        {
+          "q": "Kakak makan ________ roti.",
+          "answer": "sekeping",
+          "accepted": [
+            "sepotong",
+            "satu keping"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Roti boleh sekeping."
+        },
+        {
+          "q": "________ doktor sedang memeriksa pesakit.",
+          "answer": "seorang",
+          "accepted": [
+            "satu orang"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Doktor ialah manusia."
+        },
+        {
+          "q": "________ baju digantung pada penyangkut.",
+          "answer": "sehelai",
+          "accepted": [
+            "satu helai"
+          ],
+          "almost": [
+            "sebiji"
+          ],
+          "hint": "Baju menggunakan helai."
+        },
+        {
+          "q": "________ kereta dipandu oleh ayah.",
+          "answer": "sebuah",
+          "accepted": [
+            "satu buah"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Kereta menggunakan buah."
+        },
+        {
+          "q": "________ bola berada di bawah meja.",
+          "answer": "sebiji",
+          "accepted": [
+            "satu biji"
+          ],
+          "almost": [
+            "sehelai"
+          ],
+          "hint": "Bola menggunakan biji."
+        },
+        {
+          "q": "________ rumah terletak di tepi jalan.",
+          "answer": "sebuah",
+          "accepted": [
+            "satu buah"
+          ],
+          "almost": [
+            "sebatang"
+          ],
+          "hint": "Rumah menggunakan buah."
+        },
+        {
+          "q": "________ ikan berenang di dalam akuarium.",
+          "answer": "seekor",
+          "accepted": [
+            "satu ekor"
+          ],
+          "almost": [
+            "seorang"
+          ],
+          "hint": "Ikan ialah haiwan."
+        },
+        {
+          "q": "________ surat berada di atas meja.",
+          "answer": "sepucuk",
+          "accepted": [
+            "satu pucuk"
+          ],
+          "almost": [
+            "sebiji"
+          ],
+          "hint": "Surat menggunakan pucuk."
+        },
+        {
+          "q": "________ pokok mangga tumbuh di halaman.",
+          "answer": "sebatang",
+          "accepted": [
+            "satu batang"
+          ],
+          "almost": [
+            "sehelai"
+          ],
+          "hint": "Pokok menggunakan batang."
+        },
+        {
+          "q": "________ air diberikan kepada tetamu.",
+          "answer": "segelas",
+          "accepted": [
+            "satu gelas"
+          ],
+          "almost": [
+            "sehelai"
+          ],
+          "hint": "Air di dalam gelas."
+        },
+        {
+          "q": "________ bunga diberikan kepada ibu.",
+          "answer": "sekuntum",
+          "accepted": [
+            "satu kuntum"
+          ],
+          "almost": [
+            "seekor"
+          ],
+          "hint": "Bunga menggunakan kuntum."
+        }
+      ]
+    },
+    {
+      "id": "kata_kerja",
+      "title": "Kata Kerja",
+      "note": "Kata kerja menunjukkan perbuatan.",
+      "questions": [
+        {
+          "q": "Ibu sedang ________ nasi.",
+          "answer": "memasak",
+          "accepted": [
+            "masak",
+            "menanak",
+            "menanak nasi"
+          ],
+          "almost": [
+            "buat nasi"
+          ],
+          "hint": "Perbuatan menyediakan makanan."
+        },
+        {
+          "q": "Ayah ________ kereta ke tempat kerja.",
+          "answer": "memandu",
+          "accepted": [
+            "pandu",
+            "bawa",
+            "membawa"
+          ],
+          "almost": [
+            "naik"
+          ],
+          "hint": "Perbuatan membawa kereta."
+        },
+        {
+          "q": "Ali suka ________ buku cerita.",
+          "answer": "membaca",
+          "accepted": [
+            "baca",
+            "membaca buku"
+          ],
+          "almost": [
+            "tengok buku"
+          ],
+          "hint": "Perbuatan melihat dan memahami tulisan."
+        },
+        {
+          "q": "Burung ________ di udara.",
+          "answer": "terbang",
+          "accepted": [
+            "berterbangan"
+          ],
+          "almost": [
+            "melayang"
+          ],
+          "hint": "Burung bergerak di udara."
+        },
+        {
+          "q": "Ikan ________ di dalam kolam.",
+          "answer": "berenang",
+          "accepted": [
+            "renang"
+          ],
+          "almost": [
+            "bergerak"
+          ],
+          "hint": "Ikan bergerak di air."
+        },
+        {
+          "q": "Kakak ________ surat kepada rakannya.",
+          "answer": "menulis",
+          "accepted": [
+            "tulis"
+          ],
+          "almost": [
+            "membaca"
+          ],
+          "hint": "Perbuatan menggunakan pen atau pensel."
+        },
+        {
+          "q": "Adik ________ susu setiap pagi.",
+          "answer": "minum",
+          "accepted": [
+            "meminum"
+          ],
+          "almost": [
+            "makan"
+          ],
+          "hint": "Susu diminum."
+        },
+        {
+          "q": "Ibu ________ lantai yang kotor.",
+          "answer": "menyapu",
+          "accepted": [
+            "sapu"
+          ],
+          "almost": [
+            "mencuci"
+          ],
+          "hint": "Gunakan penyapu."
+        },
+        {
+          "q": "Ayah ________ rumput di halaman.",
+          "answer": "memotong",
+          "accepted": [
+            "potong"
+          ],
+          "almost": [
+            "menanam"
+          ],
+          "hint": "Rumput dipotong."
+        },
+        {
+          "q": "Doktor ________ pesakit.",
+          "answer": "merawat",
+          "accepted": [
+            "rawat"
+          ],
+          "almost": [
+            "mengajar"
+          ],
+          "hint": "Tugas doktor."
+        },
+        {
+          "q": "Polis ________ lalu lintas.",
+          "answer": "mengawal",
+          "accepted": [
+            "kawal"
+          ],
+          "almost": [
+            "memandu"
+          ],
+          "hint": "Polis menjaga aturan jalan."
+        },
+        {
+          "q": "Petani ________ padi di sawah.",
+          "answer": "menanam",
+          "accepted": [
+            "tanam"
+          ],
+          "almost": [
+            "memancing"
+          ],
+          "hint": "Padi ditanam."
+        },
+        {
+          "q": "Nelayan ________ ikan di laut.",
+          "answer": "menangkap",
+          "accepted": [
+            "tangkap"
+          ],
+          "almost": [
+            "menanam"
+          ],
+          "hint": "Nelayan mendapatkan ikan."
+        },
+        {
+          "q": "Adik ________ gambar bunga.",
+          "answer": "melukis",
+          "accepted": [
+            "lukis"
+          ],
+          "almost": [
+            "menulis"
+          ],
+          "hint": "Membuat gambar."
+        },
+        {
+          "q": "Cikgu ________ murid di kelas.",
+          "answer": "mengajar",
+          "accepted": [
+            "ajar"
+          ],
+          "almost": [
+            "merawat"
+          ],
+          "hint": "Tugas guru."
+        }
+      ]
+    },
+    {
+      "id": "kata_adjektif",
+      "title": "Kata Adjektif",
+      "note": "Kata adjektif menerangkan sifat atau keadaan sesuatu.",
+      "questions": [
+        {
+          "q": "Gajah ialah haiwan yang ________.",
+          "answer": "besar",
+          "accepted": [
+            "sangat besar"
+          ],
+          "almost": [
+            "kuat"
+          ],
+          "hint": "Lawan kecil."
+        },
+        {
+          "q": "Ais berasa ________.",
+          "answer": "sejuk",
+          "accepted": [
+            "dingin"
+          ],
+          "almost": [
+            "beku"
+          ],
+          "hint": "Lawan panas."
+        },
+        {
+          "q": "Bunga itu sangat ________.",
+          "answer": "cantik",
+          "accepted": [
+            "indah"
+          ],
+          "almost": [
+            "baik"
+          ],
+          "hint": "Sedap dipandang."
+        },
+        {
+          "q": "Kereta itu bergerak sangat ________.",
+          "answer": "laju",
+          "accepted": [
+            "pantas",
+            "cepat"
+          ],
+          "almost": [
+            "bergerak"
+          ],
+          "hint": "Lawan perlahan."
+        },
+        {
+          "q": "Kelas kami sentiasa ________.",
+          "answer": "bersih",
+          "accepted": [
+            "kemas"
+          ],
+          "almost": [
+            "cantik"
+          ],
+          "hint": "Tidak kotor."
+        },
+        {
+          "q": "Semut ialah haiwan yang ________.",
+          "answer": "kecil",
+          "accepted": [
+            "halus"
+          ],
+          "almost": [
+            "pendek"
+          ],
+          "hint": "Lawan besar."
+        },
+        {
+          "q": "Pokok kelapa itu sangat ________.",
+          "answer": "tinggi",
+          "accepted": [
+            "amat tinggi"
+          ],
+          "almost": [
+            "besar"
+          ],
+          "hint": "Lawan rendah."
+        },
+        {
+          "q": "Air kopi itu masih ________.",
+          "answer": "panas",
+          "accepted": [
+            "hangat"
+          ],
+          "almost": [
+            "sejuk"
+          ],
+          "hint": "Lawan sejuk."
+        },
+        {
+          "q": "Limau itu berasa ________.",
+          "answer": "masam",
+          "accepted": [
+            "sangat masam"
+          ],
+          "almost": [
+            "manis"
+          ],
+          "hint": "Rasa limau."
+        },
+        {
+          "q": "Gula itu berasa ________.",
+          "answer": "manis",
+          "accepted": [
+            "sangat manis"
+          ],
+          "almost": [
+            "masam"
+          ],
+          "hint": "Rasa gula."
+        },
+        {
+          "q": "Beg sekolah saya sangat ________.",
+          "answer": "berat",
+          "accepted": [
+            "amat berat"
+          ],
+          "almost": [
+            "besar"
+          ],
+          "hint": "Susah diangkat."
+        },
+        {
+          "q": "Kapas itu sangat ________.",
+          "answer": "lembut",
+          "accepted": [
+            "halus"
+          ],
+          "almost": [
+            "putih"
+          ],
+          "hint": "Tidak keras."
+        },
+        {
+          "q": "Batu itu sangat ________.",
+          "answer": "keras",
+          "accepted": [
+            "kuat"
+          ],
+          "almost": [
+            "berat"
+          ],
+          "hint": "Lawan lembut."
+        },
+        {
+          "q": "Pisau itu ________.",
+          "answer": "tajam",
+          "accepted": [
+            "sangat tajam"
+          ],
+          "almost": [
+            "bahaya"
+          ],
+          "hint": "Boleh memotong."
+        },
+        {
+          "q": "Bilik itu ________ selepas dikemas.",
+          "answer": "kemas",
+          "accepted": [
+            "tersusun"
+          ],
+          "almost": [
+            "bersih"
+          ],
+          "hint": "Tidak bersepah."
+        }
+      ]
+    },
+    {
+      "id": "kata_sendi",
+      "title": "Kata Sendi Nama",
+      "note": "Kata sendi nama menghubungkan perkataan. Contoh: di, ke, dari, pada, kepada dan untuk.",
+      "questions": [
+        {
+          "q": "Kakak belajar ________ perpustakaan.",
+          "answer": "di",
+          "accepted": [],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Gunakan untuk tempat berada."
+        },
+        {
+          "q": "Ayah pergi ________ pejabat.",
+          "answer": "ke",
+          "accepted": [],
+          "almost": [
+            "di"
+          ],
+          "hint": "Gunakan untuk arah atau tujuan."
+        },
+        {
+          "q": "Kami pulang ________ sekolah.",
+          "answer": "dari",
+          "accepted": [
+            "daripada"
+          ],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Gunakan untuk tempat asal."
+        },
+        {
+          "q": "Hadiah ini ________ adik.",
+          "answer": "untuk",
+          "accepted": [
+            "kepada adik"
+          ],
+          "almost": [
+            "kepada"
+          ],
+          "hint": "Menunjukkan tujuan pemberian."
+        },
+        {
+          "q": "Perhimpunan diadakan ________ hari Isnin.",
+          "answer": "pada",
+          "accepted": [],
+          "almost": [
+            "di"
+          ],
+          "hint": "Gunakan untuk masa atau hari."
+        },
+        {
+          "q": "Saya memberikan buku itu ________ Ali.",
+          "answer": "kepada",
+          "accepted": [
+            "pada"
+          ],
+          "almost": [
+            "untuk"
+          ],
+          "hint": "Digunakan untuk orang yang menerima."
+        },
+        {
+          "q": "Ibu membeli sayur ________ pasar.",
+          "answer": "di",
+          "accepted": [],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Ibu membeli di tempat itu."
+        },
+        {
+          "q": "Kami berjalan ________ taman.",
+          "answer": "ke",
+          "accepted": [],
+          "almost": [
+            "di"
+          ],
+          "hint": "Menuju ke taman."
+        },
+        {
+          "q": "Ayah balik ________ kerja.",
+          "answer": "dari",
+          "accepted": [
+            "daripada"
+          ],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Balik dari sesuatu tempat."
+        },
+        {
+          "q": "Buku itu berada ________ atas meja.",
+          "answer": "di",
+          "accepted": [],
+          "almost": [
+            "ke"
+          ],
+          "hint": "Menunjukkan tempat."
+        },
+        {
+          "q": "Saya menerima hadiah ________ ayah.",
+          "answer": "daripada",
+          "accepted": [
+            "dari"
+          ],
+          "almost": [
+            "kepada"
+          ],
+          "hint": "Hadiah diterima daripada seseorang."
+        },
+        {
+          "q": "Bas bergerak ________ sekolah.",
+          "answer": "ke",
+          "accepted": [],
+          "almost": [
+            "dari"
+          ],
+          "hint": "Menuju ke sekolah."
+        }
+      ]
+    },
+    {
+      "id": "kata_hubung",
+      "title": "Kata Hubung",
+      "note": "Kata hubung menghubungkan perkataan atau ayat seperti dan, atau, tetapi, kerana dan lalu.",
+      "questions": [
+        {
+          "q": "Ali ________ Abu bermain bola.",
+          "answer": "dan",
+          "accepted": [],
+          "almost": [
+            "atau"
+          ],
+          "hint": "Dan menggabungkan dua orang/perkara."
+        },
+        {
+          "q": "Kamu mahu air sirap ________ air kosong?",
+          "answer": "atau",
+          "accepted": [],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Atau menunjukkan pilihan."
+        },
+        {
+          "q": "Aina rajin ________ adiknya malas.",
+          "answer": "tetapi",
+          "accepted": [
+            "namun"
+          ],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Tetapi menunjukkan perbezaan."
+        },
+        {
+          "q": "Saya membawa payung ________ hari hujan.",
+          "answer": "kerana",
+          "accepted": [
+            "sebab"
+          ],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Kerana menunjukkan sebab."
+        },
+        {
+          "q": "Adik bangun ________ mandi.",
+          "answer": "lalu",
+          "accepted": [
+            "kemudian"
+          ],
+          "almost": [
+            "tetapi"
+          ],
+          "hint": "Lalu menunjukkan tindakan seterusnya."
+        },
+        {
+          "q": "Ibu membeli ikan ________ sayur.",
+          "answer": "dan",
+          "accepted": [],
+          "almost": [
+            "atau"
+          ],
+          "hint": "Menggabungkan dua benda."
+        },
+        {
+          "q": "Awak hendak membaca buku ________ melukis?",
+          "answer": "atau",
+          "accepted": [],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Menunjukkan pilihan."
+        },
+        {
+          "q": "Dia menangis ________ terjatuh.",
+          "answer": "kerana",
+          "accepted": [
+            "sebab"
+          ],
+          "almost": [
+            "tetapi"
+          ],
+          "hint": "Menunjukkan sebab menangis."
+        },
+        {
+          "q": "Rumah itu kecil ________ bersih.",
+          "answer": "tetapi",
+          "accepted": [
+            "namun"
+          ],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Dua sifat yang berbeza."
+        },
+        {
+          "q": "Saya makan nasi ________ minum air.",
+          "answer": "lalu",
+          "accepted": [
+            "kemudian"
+          ],
+          "almost": [
+            "kerana"
+          ],
+          "hint": "Perbuatan seterusnya."
+        },
+        {
+          "q": "Kakak pandai menyanyi ________ menari.",
+          "answer": "dan",
+          "accepted": [],
+          "almost": [
+            "atau"
+          ],
+          "hint": "Dua kebolehan."
+        },
+        {
+          "q": "Pilih pensel merah ________ pensel biru.",
+          "answer": "atau",
+          "accepted": [],
+          "almost": [
+            "dan"
+          ],
+          "hint": "Pilihan."
+        }
+      ]
+    },
+    {
+      "id": "tanda_baca",
+      "title": "Tanda Baca",
+      "note": "Tanda baca membantu ayat dibaca dengan betul. Contoh: noktah, koma, tanda soal dan tanda seru.",
+      "questions": [
+        {
+          "q": "Tanda baca di akhir ayat penyata ialah ________.",
+          "answer": "noktah",
+          "accepted": [
+            "."
+          ],
+          "almost": [
+            "koma"
+          ],
+          "hint": "Ayat penyata berakhir dengan noktah."
+        },
+        {
+          "q": "Tanda baca untuk bertanya ialah tanda ________.",
+          "answer": "soal",
+          "accepted": [
+            "tanda soal",
+            "?"
+          ],
+          "almost": [
+            "seru"
+          ],
+          "hint": "Ayat tanya guna tanda soal."
+        },
+        {
+          "q": "Tanda baca untuk rasa kagum ialah tanda ________.",
+          "answer": "seru",
+          "accepted": [
+            "tanda seru",
+            "!"
+          ],
+          "almost": [
+            "soal"
+          ],
+          "hint": "Wah! menggunakan tanda seru."
+        },
+        {
+          "q": "Huruf pertama pada awal ayat mesti huruf ________.",
+          "answer": "besar",
+          "accepted": [
+            "huruf besar"
+          ],
+          "almost": [
+            "kecil"
+          ],
+          "hint": "Awal ayat guna huruf besar."
+        },
+        {
+          "q": "Nama khas mesti bermula dengan huruf ________.",
+          "answer": "besar",
+          "accepted": [
+            "huruf besar"
+          ],
+          "almost": [
+            "kecil"
+          ],
+          "hint": "Nama khas guna huruf besar."
+        },
+        {
+          "q": "Ayat 'Siapakah nama kamu' perlu tanda ________.",
+          "answer": "soal",
+          "accepted": [
+            "tanda soal",
+            "?"
+          ],
+          "almost": [
+            "noktah"
+          ],
+          "hint": "Ini ialah ayat tanya."
+        },
+        {
+          "q": "Ayat 'Wah, cantiknya bunga itu' perlu tanda ________.",
+          "answer": "seru",
+          "accepted": [
+            "tanda seru",
+            "!"
+          ],
+          "almost": [
+            "soal"
+          ],
+          "hint": "Menunjukkan perasaan kagum."
+        },
+        {
+          "q": "Ayat 'Saya suka membaca buku' perlu tanda ________.",
+          "answer": "noktah",
+          "accepted": [
+            "."
+          ],
+          "almost": [
+            "koma"
+          ],
+          "hint": "Ayat biasa guna noktah."
+        },
+        {
+          "q": "Tanda ________ digunakan untuk berhenti sebentar dalam ayat.",
+          "answer": "koma",
+          "accepted": [
+            ","
+          ],
+          "almost": [
+            "noktah"
+          ],
+          "hint": "Koma menunjukkan hentian sebentar."
+        },
+        {
+          "q": "Selepas noktah, ayat baharu bermula dengan huruf ________.",
+          "answer": "besar",
+          "accepted": [
+            "huruf besar"
+          ],
+          "almost": [
+            "kecil"
+          ],
+          "hint": "Ayat baharu mula dengan huruf besar."
+        }
+      ]
+    },
+    {
+      "id": "ejaan",
+      "title": "Ejaan",
+      "note": "Latihan ejaan membantu murid mengeja perkataan dengan betul.",
+      "questions": [
+        {
+          "q": "Ejaan betul bagi 'skolah' ialah ________.",
+          "answer": "sekolah",
+          "accepted": [],
+          "almost": [
+            "skolah"
+          ],
+          "hint": "Ada huruf e selepas s."
+        },
+        {
+          "q": "Ejaan betul bagi 'kucing' ialah ________.",
+          "answer": "kucing",
+          "accepted": [
+            "kuching"
+          ],
+          "almost": [
+            "kuceng"
+          ],
+          "hint": "Haiwan yang mengiau."
+        },
+        {
+          "q": "Ejaan betul bagi 'pensil' boleh juga ditulis ________.",
+          "answer": "pensel",
+          "accepted": [
+            "pensil"
+          ],
+          "almost": [
+            "pencil"
+          ],
+          "hint": "Dalam BM lazimnya pensel."
+        },
+        {
+          "q": "Ejaan betul bagi 'kreta' ialah ________.",
+          "answer": "kereta",
+          "accepted": [],
+          "almost": [
+            "kreta"
+          ],
+          "hint": "Ada huruf e selepas k."
+        },
+        {
+          "q": "Ejaan betul bagi 'bukku' ialah ________.",
+          "answer": "buku",
+          "accepted": [],
+          "almost": [
+            "bukku"
+          ],
+          "hint": "Buku ada satu k."
+        },
+        {
+          "q": "Ejaan betul bagi 'hospetal' ialah ________.",
+          "answer": "hospital",
+          "accepted": [],
+          "almost": [
+            "ospetal"
+          ],
+          "hint": "Tempat doktor bekerja."
+        },
+        {
+          "q": "Ejaan betul bagi 'motosikal' ialah ________.",
+          "answer": "motosikal",
+          "accepted": [
+            "motor"
+          ],
+          "almost": [
+            "motorsikal"
+          ],
+          "hint": "Kenderaan dua roda."
+        },
+        {
+          "q": "Ejaan betul bagi 'sayor' ialah ________.",
+          "answer": "sayur",
+          "accepted": [],
+          "almost": [
+            "sayor"
+          ],
+          "hint": "Makanan seperti sawi dan kubis."
+        },
+        {
+          "q": "Ejaan betul bagi 'ayer' ialah ________.",
+          "answer": "air",
+          "accepted": [],
+          "almost": [
+            "ayer"
+          ],
+          "hint": "Minuman utama."
+        },
+        {
+          "q": "Ejaan betul bagi 'dapor' ialah ________.",
+          "answer": "dapur",
+          "accepted": [],
+          "almost": [
+            "dapor"
+          ],
+          "hint": "Tempat memasak."
+        }
+      ]
+    },
+    {
+      "id": "susun_ayat",
+      "title": "Susun Ayat",
+      "note": "Susun perkataan supaya menjadi ayat yang betul.",
+      "questions": [
+        {
+          "q": "Susun: membaca / Saya / buku",
+          "answer": "Saya membaca buku",
+          "accepted": [
+            "saya membaca buku."
+          ],
+          "almost": [
+            "membaca saya buku"
+          ],
+          "hint": "Mulakan dengan pelaku."
+        },
+        {
+          "q": "Susun: kereta / memandu / Ayah",
+          "answer": "Ayah memandu kereta",
+          "accepted": [
+            "ayah memandu kereta."
+          ],
+          "almost": [
+            "kereta memandu ayah"
+          ],
+          "hint": "Ayah ialah pelaku."
+        },
+        {
+          "q": "Susun: bunga / Ibu / menyiram",
+          "answer": "Ibu menyiram bunga",
+          "accepted": [
+            "ibu menyiram bunga."
+          ],
+          "almost": [
+            "bunga menyiram ibu"
+          ],
+          "hint": "Ibu melakukan perbuatan."
+        },
+        {
+          "q": "Susun: sekolah / pergi / Kami / ke",
+          "answer": "Kami pergi ke sekolah",
+          "accepted": [
+            "kami pergi ke sekolah."
+          ],
+          "almost": [
+            "kami sekolah ke pergi"
+          ],
+          "hint": "Gunakan ke sebelum sekolah."
+        },
+        {
+          "q": "Susun: bola / bermain / Adik",
+          "answer": "Adik bermain bola",
+          "accepted": [
+            "adik bermain bola."
+          ],
+          "almost": [
+            "bola bermain adik"
+          ],
+          "hint": "Adik ialah pelaku."
+        },
+        {
+          "q": "Susun: nasi / makan / Ali",
+          "answer": "Ali makan nasi",
+          "accepted": [
+            "ali makan nasi."
+          ],
+          "almost": [
+            "nasi makan ali"
+          ],
+          "hint": "Ali melakukan perbuatan makan."
+        },
+        {
+          "q": "Susun: doktor / pesakit / merawat",
+          "answer": "Doktor merawat pesakit",
+          "accepted": [
+            "doktor merawat pesakit."
+          ],
+          "almost": [
+            "pesakit merawat doktor"
+          ],
+          "hint": "Doktor merawat pesakit."
+        },
+        {
+          "q": "Susun: pasar / ke / pergi / Ibu",
+          "answer": "Ibu pergi ke pasar",
+          "accepted": [
+            "ibu pergi ke pasar."
+          ],
+          "almost": [
+            "pasar pergi ke ibu"
+          ],
+          "hint": "Ibu menuju ke pasar."
+        },
+        {
+          "q": "Susun: cantik / itu / bunga",
+          "answer": "Bunga itu cantik",
+          "accepted": [
+            "bunga itu sangat cantik"
+          ],
+          "almost": [
+            "cantik itu bunga"
+          ],
+          "hint": "Subjek dahulu."
+        },
+        {
+          "q": "Susun: minum / susu / adik",
+          "answer": "Adik minum susu",
+          "accepted": [
+            "adik meminum susu"
+          ],
+          "almost": [
+            "susu minum adik"
+          ],
+          "hint": "Adik minum."
+        }
+      ]
+    },
+    {
+      "id": "pemahaman",
+      "title": "Pemahaman Pendek",
+      "note": "Baca petikan dalam soalan dan jawab dengan perkataan yang sesuai.",
+      "questions": [
+        {
+          "q": "Petikan: Aiman pergi ke taman bersama ayah. Aiman bermain bola. Siapakah pergi ke taman?",
+          "answer": "Aiman",
+          "accepted": [],
+          "almost": [
+            "ayah"
+          ],
+          "hint": "Nama budak dalam petikan."
+        },
+        {
+          "q": "Petikan: Aiman pergi ke taman bersama ayah. Dengan siapa Aiman pergi?",
+          "answer": "ayah",
+          "accepted": [
+            "bapa"
+          ],
+          "almost": [
+            "ibu"
+          ],
+          "hint": "Aiman pergi bersama ayah."
+        },
+        {
+          "q": "Petikan: Aiman bermain bola di taman. Apakah yang dimainkan Aiman?",
+          "answer": "bola",
+          "accepted": [
+            "bola sepak"
+          ],
+          "almost": [
+            "basikal"
+          ],
+          "hint": "Aiman bermain bola."
+        },
+        {
+          "q": "Petikan: Sara membaca buku cerita di perpustakaan. Siapakah membaca buku?",
+          "answer": "Sara",
+          "accepted": [],
+          "almost": [
+            "Siti"
+          ],
+          "hint": "Nama dalam petikan ialah Sara."
+        },
+        {
+          "q": "Petikan: Sara membaca buku cerita di perpustakaan. Di manakah Sara membaca?",
+          "answer": "perpustakaan",
+          "accepted": [
+            "di perpustakaan"
+          ],
+          "almost": [
+            "kelas"
+          ],
+          "hint": "Tempat membaca dalam petikan."
+        },
+        {
+          "q": "Petikan: Ibu membeli ikan dan sayur di pasar. Apakah yang dibeli ibu?",
+          "answer": "ikan dan sayur",
+          "accepted": [
+            "sayur dan ikan",
+            "ikan",
+            "sayur"
+          ],
+          "almost": [
+            "ayam"
+          ],
+          "hint": "Ibu membeli ikan dan sayur."
+        },
+        {
+          "q": "Petikan: Ibu membeli ikan dan sayur di pasar. Di manakah ibu membeli barang?",
+          "answer": "pasar",
+          "accepted": [
+            "di pasar"
+          ],
+          "almost": [
+            "kedai"
+          ],
+          "hint": "Tempat ialah pasar."
+        },
+        {
+          "q": "Petikan: Abu sakit perut lalu dibawa ke klinik. Mengapa Abu ke klinik?",
+          "answer": "sakit perut",
+          "accepted": [
+            "abu sakit",
+            "kerana sakit perut"
+          ],
+          "almost": [
+            "demam"
+          ],
+          "hint": "Sebab dalam petikan."
+        },
+        {
+          "q": "Petikan: Pada hari Ahad, keluarga Rina berkelah di pantai. Bilakah mereka berkelah?",
+          "answer": "Ahad",
+          "accepted": [
+            "hari ahad"
+          ],
+          "almost": [
+            "sabtu"
+          ],
+          "hint": "Hari disebut dalam petikan."
+        },
+        {
+          "q": "Petikan: Kucing putih tidur di bawah meja. Di manakah kucing tidur?",
+          "answer": "bawah meja",
+          "accepted": [
+            "di bawah meja"
+          ],
+          "almost": [
+            "atas meja"
+          ],
+          "hint": "Tempat kucing tidur."
+        }
+      ]
+    }
+  ]
+}
